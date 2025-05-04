@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #0047AB;
+    --color-secondary: #293554;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.884),#0000006a),url("Background_IAI.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
